@@ -17,7 +17,7 @@ header{
 	background-color: #927F80;
 	color: white;
 	position: relative;
-/*	min-height: 2cm;*/
+	
 }
 
 header.menu{
@@ -33,6 +33,7 @@ header ul>li{
 	display: inline-block;
 	padding-right: 4px;
 	flex-basis: 24%;
+	padding-bottom: 4px;
 }
 
 .name{
@@ -42,7 +43,15 @@ header ul>li{
 	
 }
 
-
+/*==== DESCRIPTION ======*/
+.desc{
+	background-image: url("../images/headerbgi.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+	margin: 0;
+	padding: 0;
+}
 
 
 
